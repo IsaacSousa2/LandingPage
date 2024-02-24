@@ -1,9 +1,11 @@
 import { Hero } from "@/components/sectionHero";
+import { Services } from "@/components/sectionServices";
 
 export default function Home() {
   return (
-    <h1>
+    <div>
       <Hero />
-    </h1>
+      <Services />
+    </div>
   );
 }

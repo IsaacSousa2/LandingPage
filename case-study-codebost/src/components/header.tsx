@@ -3,7 +3,7 @@ import Logo from '@/assets/logo.svg'
 import IconUser from '@/assets/icon-user.svg'
 import { ItemMenu } from "./itemMenu"
 import { Search } from "./search"
-import Container from "./containerGrid"
+import { Container } from "./container"
 
 export const Header = () => {
 

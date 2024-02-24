@@ -5,7 +5,7 @@ type Props = {
     children: ReactNode
 
 }
-export default function Container({children} : Props) {
+export const Container = ({children} : Props) => {
 
     return(
         
