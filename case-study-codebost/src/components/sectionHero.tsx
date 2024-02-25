@@ -9,30 +9,34 @@ export const Hero = () => {
 
     return(
 
-        <main className="w-full h-[704px] bg-primary-orange bg-cover">
+        <main className="w-full h-[704px] md:h-[1000px] bg-primary-orange bg-cover">
             
             <div className="">
 
                 <Container>
 
-                    <div className="flex-1 max-w-[500px]">
-                        <h1 className="text-white text-7xl font-bold mb-4 ">Tenha seu banco na palma da mão</h1>
-                        <p className="text-white text-xl  max-w-[408px] mb-8">Todas as operações que você precisa em um só lugar. Simple, completo e feito pra você.</p>
-                        <div className="flex gap-4 mb-24 ">
-                            <button className="">
-                                <Image src={ImgAppleStore} alt="Imagem da Apple Store" />
-                            </button>
-                            <button className="">
-                                <Image src={ImgPlayStore} alt="Imagem da Google Play" />
+                    <div className="flex w-full justify-between mt-16 md:flex-col md:flex md:justify-center md:items-center">
+                        <div className="flex-1 max-w-[500px]">
+                            <h1 className="text-white text-7xl lg:text-5xl font-bold mb-4 ">Tenha seu banco na palma da mão</h1>
+                            <p className="text-white text-xl max-w-[408px] mb-8">Todas as operações que você precisa em um só lugar. Simple, completo e feito pra você.</p>
+                            <div className="flex gap-4 mb-24 ">
+                                <button className="">
+                                    <Image src={ImgAppleStore} alt="Imagem da Apple Store" />
+                                </button>
+                                <button className="">
+                                    <Image src={ImgPlayStore} alt="Imagem da Google Play" />
+                                </button>
+                            </div>
+                            <button className="flex items-center gap-2">
+                                <Image src={Arrow} alt="Imagem de flecha para baixo" />
+                                <span className="text-white text-sm font-bold">Continue Explorando</span>
                             </button>
                         </div>
-                        <button className="flex items-center gap-2">
-                            <Image src={Arrow} alt="Imagem de flecha para baixo" />
-                            <span className="text-white text-sm font-bold">Continue Explorando</span>
-                        </button>
-                    </div>
 
-                    <Image src={WomanImage} alt="Imagem modelo" className="mr-[-41px]" />
+                        <div>
+                            <Image src={WomanImage} alt="Imagem modelo" className="lg:w-[600px] mr-[-41px]" />
+                        </div>
+                    </div>
 
                 </Container>
 

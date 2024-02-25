@@ -9,7 +9,7 @@ export const Header = () => {
 
     return(
 
-        <header className="relative flex items-center w-full h-20 bg-primary-orange  ">
+        <header className="relative flex items-center w-full h-20 bg-primary-orange">
 
             <div className="z-0 absolute top-0 right-0 bg-primary-blue h-full w-[19%]"></div>
                 <Container>
@@ -37,7 +37,9 @@ export const Header = () => {
                             </ul>
 
                         </div>
-                        <Search />
+                        <div className="lg:hidden">
+                            <Search />
+                        </div>
 
                     </div>
 
