@@ -9,7 +9,7 @@ export const Services = () => {
 
     return(
 
-        <div className="bg-white w-full h-[965px]">
+        <div className="bg-white w-full h-[965px] md:h-[1800px] mm:h-[2000px]">
             <Container>
                 <div className="flex items-center justify-between w-full md:flex-col">
                     <div className="flex-1 max-w-[594px] pt-32">

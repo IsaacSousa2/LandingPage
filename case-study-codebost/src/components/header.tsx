@@ -20,7 +20,7 @@ export const Header = () => {
 
                             <Image src={Logo} alt="Logo do site" />
 
-                            <ul className="items-center gap-12 flex ">
+                            <ul className="items-center gap-12 flex md:hidden">
                                 <li>
                                     <ItemMenu name="Para você" />
                                 </li>
@@ -43,9 +43,9 @@ export const Header = () => {
 
                     </div>
 
-                    <button className="z-10 flex items-center gap-4 bg-primary-blue h-20 pl-10 ">
+                    <button className="z-10 flex items-center gap-4 bg-primary-blue h-20 pl-10">
                         <span className="text-white text-bold">Acessar conta</span>
-                        <Image src={IconUser} alt="" />
+                        <Image src={IconUser} alt="Icone de usuario" />
                     </button>
 
                 </Container>

@@ -22,7 +22,7 @@ const config: Config = {
         'md': {'max': '800px'},
         'mdMin': { 'min': '800px' },
         'sm': {'max': '639px'},
-        'mm': {'max' : '350px'},
+        'mm': {'max' : '400px'},
       },
       colors:{
         'primary-blue' : '#106EB0',
